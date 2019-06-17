@@ -1,50 +1,18 @@
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cloud-Machine-Learning-Engine-Logo.svg/480px-Cloud-Machine-Learning-Engine-Logo.svg.png" class="center">
+
+
 # Introduction to machine learning
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cloud-Machine-Learning-Engine-Logo.svg/600px-Cloud-Machine-Learning-Engine-Logo.svg.png" class="center">
+
+## Who this book is for
+
+This book is aimed at anyone with a yearn to learn machine learning! There are no requisites, my goal is to guide you through the very basics starting from the python programing language up to the more advanced concepts like support vector machines, k-means and random forests. 
 
 
-For an example of a book built with Jupyter Books, see the [textbook for Data 100](https://www.textbook.ds100.org/) at UC Berkeley.
+<!-- ## About me
 
-Here are a few features of Jupyter Books
+Allow me to introduce myself :). My name is Mauricio. I am a curious  -->
 
-* All course content is written in markdown and Jupyter Notebooks, stored in `notebooks/`
-* The Jupyter Book repo comes packaged with helper scripts to convert these into Jekyll pages (in `scripts/`) that can be hosted for free on GitHub
-* Pages can have [Binder](https://mybinder.org) or JupyterHub links automatically added for interactivity.
-* The website itself is based on Jekyll, and is highly extensible and can be freely-hosted on GitHub.
-* There are lots of nifty HTML features under-the-hood, such as Turbolinks fast-navigation and
-  click-to-copy in code cells.
+## Collaborations
 
-## Getting started
-
-To get started, you may be interested in the following links.
-Here are a few links of interest:
-
-* **[Quickstart](features/features)** is a quick demo and overview of Jupyter Books.
-
-* **[The Jupyter Book Guide](guide/01_overview)**
-  will step you through the process of configuring and building your own Jupyter Book.
-
-* **[The Jupyter Book template repo](https://github.com/jupyter/jupyter-book)** is the template
-  repository you'll use as a start for your Jupyter Book.
-
-* **A demo of the Jupyter Book** can be browsed via the sidebar to the left.
-
-## Installation
-
-Here's a brief rundown of how to create your own Jupyter Book using this site. For a more
-complete guide, see [the Jupyter Book guide](guide/01_overview).
-
-* Fork the Jupyter Book template repo
-* Replace the demo notebooks in `content/` with your own notebooks and markdown files.
-* Create a Table of Contents yaml file by editing `_data/toc.yaml`.
-* Generate the Jekyll markdown for your notebooks by running `scripts/generate_book.py`
-* Push your changes to GitHub (or wherever you host your site)!
-
-## Acknowledgements
-
-Jupyter Books was originally created by [Sam Lau][sam] and [Chris Holdgraf][chris]
-with support of the **UC Berkeley Data Science Education Program and the Berkeley
-Institute for Data Science**.
-
-[sam]: http://www.samlau.me/
-[chris]: https://predictablynoisy.com
+If you wish to contribute to this project, write me an email at m.neira10@uniandes.edu.co or go straight to the [book's repo](https://github.com/mneira10/MLBook) if you want to throw in a pull request. 
