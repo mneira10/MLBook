@@ -74,6 +74,18 @@ math.sin(math.pi/2)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+1.0
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -111,6 +123,18 @@ sin(1.0)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+0.8414709848078965
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -127,6 +151,25 @@ sin(pi/2)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_traceback_line}
+```
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    <ipython-input-6-7ec80c2057e2> in <module>()
+    ----> 1 sin(pi/2)
+    
+
+    NameError: name 'pi' is not defined
+
+
+```
+</div>
+</div>
 </div>
 
 
@@ -155,6 +198,18 @@ sin(pi/2)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+1.0
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -195,6 +250,20 @@ mt.sin?
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_data_text}
+```
+[0;31mDocstring:[0m
+sin(x)
+
+Return the sine of x (measured in radians).
+[0;31mType:[0m      builtin_function_or_method
+
+```
+
+</div>
+</div>
 </div>
 
 

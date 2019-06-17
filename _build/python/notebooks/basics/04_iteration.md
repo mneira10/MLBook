@@ -41,6 +41,18 @@ for i in a:
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+4
+5
+6
+8
+10
+```
+</div>
+</div>
 </div>
 
 
@@ -61,6 +73,14 @@ print(GGM)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that dist ant afternoon when his father took him to discover ice. At that time Macondo was a village of twenty adobe houses,built on the bank of a river of clear water that ran along a bed of polished stones, which were white and enormous,like prehistoric eggs.
+```
+</div>
+</div>
 </div>
 
 
@@ -76,6 +96,76 @@ for i in dot:
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+['Many', 'years', 'later,', 'as', 'he', 'faced', 'the', 'firing', 'squad,', 'Colonel', 'Aureliano', 'Buendía', 'was', 'to', 'remember', 'that', 'dist', 'ant', 'afternoon', 'when', 'his', 'father', 'took', 'him', 'to', 'discover', 'ice.', 'At', 'that', 'time', 'Macondo', 'was', 'a', 'village', 'of', 'twenty', 'adobe', 'houses,built', 'on', 'the', 'bank', 'of', 'a', 'river', 'of', 'clear', 'water', 'that', 'ran', 'along', 'a', 'bed', 'of', 'polished', 'stones,', 'which', 'were', 'white', 'and', 'enormous,like', 'prehistoric', 'eggs.']
+Many
+years
+later,
+as
+he
+faced
+the
+firing
+squad,
+Colonel
+Aureliano
+Buendía
+was
+to
+remember
+that
+dist
+ant
+afternoon
+when
+his
+father
+took
+him
+to
+discover
+ice.
+At
+that
+time
+Macondo
+was
+a
+village
+of
+twenty
+adobe
+houses,built
+on
+the
+bank
+of
+a
+river
+of
+clear
+water
+that
+ran
+along
+a
+bed
+of
+polished
+stones,
+which
+were
+white
+and
+enormous,like
+prehistoric
+eggs.
+```
+</div>
+</div>
 </div>
 
 
@@ -99,6 +189,14 @@ print(a)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+{1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five'}
+```
+</div>
+</div>
 </div>
 
 
@@ -112,6 +210,18 @@ for k in a.keys(): # iterate over the keys
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+one
+two
+three
+four
+five
+```
+</div>
+</div>
 </div>
 
 
@@ -125,6 +235,18 @@ for v in a.values(): #iterate over the values
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+one
+two
+three
+four
+five
+```
+</div>
+</div>
 </div>
 
 
@@ -145,6 +267,15 @@ print(a) # be careful! the lists has 10 objects starting with 0
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+range(0, 10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+</div>
+</div>
 </div>
 
 
@@ -158,6 +289,23 @@ for i in range(10): # if you given a single argument the iterations starts at 0.
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+</div>
+</div>
 </div>
 
 
@@ -171,6 +319,19 @@ for i in range(4,10): # you can algo give two arguments: range(start, end).
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+4
+5
+6
+7
+8
+9
+```
+</div>
+</div>
 </div>
 
 
@@ -184,6 +345,17 @@ for i in range(0,10,3): # if you give three arguments they are interpreted as ra
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+0
+3
+6
+9
+```
+</div>
+</div>
 </div>
 
 

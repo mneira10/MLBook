@@ -59,6 +59,14 @@ print(square(1), square(2), square(5))
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+1 4 25
+```
+</div>
+</div>
 </div>
 
 
@@ -71,6 +79,32 @@ square('a') # This should give an error
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_traceback_line}
+```
+
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-2-1e255ec27deb> in <module>()
+    ----> 1 square('a') # This should give an error
+    
+
+    <ipython-input-1-8adcfd68d410> in square(a)
+          1 def square(a):
+    ----> 2     return a*a
+          3 
+          4 print(square(1), square(2), square(5))
+
+
+    TypeError: can't multiply sequence by non-int of type 'str'
+
+
+```
+</div>
+</div>
 </div>
 
 
@@ -101,6 +135,18 @@ minimum(4,5)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+4
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -113,6 +159,18 @@ minimum(4,0)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+0
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -147,6 +205,18 @@ power(2)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+4
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -159,6 +229,18 @@ power(2, b=5) # This is the prefered way to change the default parameters
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+32
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -171,6 +253,18 @@ power(2,5) # This works as well
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+32
+```
+
+
+</div>
+</div>
 </div>
 
 

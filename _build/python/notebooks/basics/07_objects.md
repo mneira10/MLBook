@@ -81,6 +81,14 @@ print(A.radius)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+5.0
+```
+</div>
+</div>
 </div>
 
 
@@ -127,6 +135,15 @@ print(A.area())
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+1.0
+3.141592653589793
+```
+</div>
+</div>
 </div>
 
 
@@ -170,6 +187,14 @@ print(B.radius) # Check that the radius is twice as the original one.
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+10.0
+```
+</div>
+</div>
 </div>
 
 
@@ -211,6 +236,15 @@ print(B.add_area(A))
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+15.707963267948966
+15.707963267948966
+```
+</div>
+</div>
 </div>
 
 

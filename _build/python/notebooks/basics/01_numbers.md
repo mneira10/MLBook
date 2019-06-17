@@ -40,6 +40,18 @@ Some simple examples are
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+6
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -52,6 +64,18 @@ Some simple examples are
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+-32
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -64,6 +88,18 @@ Some simple examples are
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+16
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -76,6 +112,18 @@ Some simple examples are
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+3.3333333333333335
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -88,6 +136,18 @@ Some simple examples are
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+3
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -100,6 +160,18 @@ Some simple examples are
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+1000
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -124,6 +196,18 @@ It is also posible to use complex numbers. Instead of using $i$ for $\sqrt{-1}$ 
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+(-1+0j)
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -156,6 +240,18 @@ math.log(10) #natural logarithm
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+2.302585092994046
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -168,6 +264,18 @@ math.log10(10) #base 10 logarith,
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+1.0
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -180,6 +288,18 @@ math.sqrt(10) # square root
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+3.1622776601683795
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -192,6 +312,18 @@ math.exp(2) # exponential
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+7.38905609893065
+```
+
+
+</div>
+</div>
 </div>
 
 

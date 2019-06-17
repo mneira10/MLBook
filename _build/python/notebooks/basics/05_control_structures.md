@@ -38,6 +38,14 @@ else:
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+a is smaller than b
+```
+</div>
+</div>
 </div>
 
 
@@ -73,6 +81,18 @@ Let see some examples:
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+False
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -85,6 +105,18 @@ Let see some examples:
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+True
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -97,6 +129,18 @@ not (2 == 5)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+True
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -119,6 +163,14 @@ print(a)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+```
+</div>
+</div>
 </div>
 
 
@@ -141,6 +193,14 @@ print(position, n_steps) # this is the final position and the number of steps
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+10.395954092211973 187
+```
+</div>
+</div>
 </div>
 
 

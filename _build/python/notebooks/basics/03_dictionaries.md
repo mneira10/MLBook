@@ -51,6 +51,18 @@ d['Angela']
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+23746
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -63,6 +75,18 @@ d['Diego']
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+61562
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -75,6 +99,18 @@ d['Luis']
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+3747
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -87,6 +123,18 @@ d['Sofia']
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+2514
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -115,6 +163,14 @@ print(d)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+{'Angela': 23746, 'Sofia': 2514, 'Luis': 3747, 'Diego': 61562, 'Valeriano': 1234}
+```
+</div>
+</div>
 </div>
 
 
@@ -131,6 +187,18 @@ d.pop('Angela')
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+23746
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -143,6 +211,14 @@ print(d)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+{'Sofia': 2514, 'Luis': 3747, 'Diego': 61562, 'Valeriano': 1234}
+```
+</div>
+</div>
 </div>
 
 
@@ -159,6 +235,18 @@ list(d.keys())
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+['Sofia', 'Luis', 'Diego', 'Valeriano']
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -175,6 +263,18 @@ list(d.values())
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[2514, 3747, 61562, 1234]
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -191,6 +291,18 @@ It is also easy to test whether a key (or value) is in the dictionary
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+False
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -203,6 +315,18 @@ It is also easy to test whether a key (or value) is in the dictionary
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+True
+```
+
+
+</div>
+</div>
 </div>
 
 

@@ -43,6 +43,18 @@ l
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[1, 4.5, 6, 9.0, 10, -1]
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -60,6 +72,18 @@ l[0]
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+1
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -72,6 +96,18 @@ l[5]
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+-1
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -88,6 +124,18 @@ l[-1]
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+-1
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -100,6 +148,18 @@ l[-3]
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+9.0
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -116,6 +176,25 @@ l[6]
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_traceback_line}
+```
+
+    ---------------------------------------------------------------------------
+
+    IndexError                                Traceback (most recent call last)
+
+    <ipython-input-7-cb842cca7e42> in <module>()
+    ----> 1 l[6]
+    
+
+    IndexError: list index out of range
+
+
+```
+</div>
+</div>
 </div>
 
 
@@ -144,6 +223,18 @@ l
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[100, 4.5, 6, 9.0, 10, -1]
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -168,6 +259,14 @@ print(l) # this is the full list
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+[100, 4.5, 6, 9.0, 10, -1]
+```
+</div>
+</div>
 </div>
 
 
@@ -180,6 +279,18 @@ l[0:4] #start=0, end=4
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[100, 4.5, 6, 9.0]
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -192,6 +303,18 @@ l[2:4] #start=2, end=4
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[6, 9.0]
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -204,6 +327,18 @@ l[-4:-1] #start=-4, end=-1, negative values are allowed.
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[6, 9.0, 10]
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -220,6 +355,18 @@ l[3:]
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[9.0, 10, -1]
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -232,6 +379,18 @@ l[:4]
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[100, 4.5, 6, 9.0]
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -253,6 +412,16 @@ print('n=',n) # this is the concatenation
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+l= [100, 4.5, 6, 9.0, 10, -1]
+m= [45, -56]
+n= [100, 4.5, 6, 9.0, 10, -1, 45, -56]
+```
+</div>
+</div>
 </div>
 
 
@@ -265,6 +434,18 @@ m + l #sum of lists does not commute!
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[45, -56, 100, 4.5, 6, 9.0, 10, -1]
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -277,6 +458,18 @@ m + l #sum of lists does not commute!
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[100, 4.5, 6, 9.0, 10, -1, 100, 4.5, 6, 9.0, 10, -1]
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -294,6 +487,14 @@ print(l_sorted)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+[-1, 4.5, 6, 9.0, 10, 100]
+```
+</div>
+</div>
 </div>
 
 
@@ -310,6 +511,18 @@ len(l)
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+6
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -339,6 +552,14 @@ print(given_name + " " + family_name) # This is the concatenations of the string
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+Silvia Rivera Cusicanqui
+```
+</div>
+</div>
 </div>
 
 
@@ -355,6 +576,18 @@ given_name.upper() #convert to upper case
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+'SILVIA'
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -367,6 +600,18 @@ given_name.replace('i', 'y') #replace 'i' with 'y'
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+'Sylvya'
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -379,6 +624,18 @@ given_name.count('i') # count how many times 'i' is the string
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+2
+```
+
+
+</div>
+</div>
 </div>
 
 
@@ -391,6 +648,18 @@ family_name.split() # split the original string in the places with spaces, the r
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+['Rivera', 'Cusicanqui']
+```
+
+
+</div>
+</div>
 </div>
 
 
