@@ -9,7 +9,7 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
-<img src="https://raw.githubusercontent.com/mneira10/MLBook/master/content/images/logo/MLLogo.png" class="center">
+<!-- <img src="https://raw.githubusercontent.com/mneira10/MLBook/master/content/images/logo/MLLogo.png" class="center"> -->
 
 
 <img src="https://circleci.com/gh/jupyter/jupyter-book.svg?style=svg" class="center">
