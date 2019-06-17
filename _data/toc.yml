@@ -23,6 +23,9 @@
 
 # Top-level page
 - header: Introduction
+- title: Welcome!
+  url: /intro
+- title: Who this book is for
   url: /intro
   # not_numbered: true
 

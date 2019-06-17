@@ -1,8 +1,8 @@
 ---
-title: 'None'
+title: 'Who this book is for'
 prev_page:
-  url: 
-  title: ''
+  url: /intro
+  title: 'Welcome!'
 next_page:
   url: /features/features
   title: 'Features and customization'

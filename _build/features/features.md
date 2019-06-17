@@ -2,7 +2,7 @@
 title: 'Features and customization'
 prev_page:
   url: /intro
-  title: 'None'
+  title: 'Who this book is for'
 next_page:
   url: /features/markdown
   title: 'Markdown files'
