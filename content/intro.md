@@ -1,10 +1,7 @@
-# Books with Jupyter and Jekyll
+# Introduction to machine learning
 
-<img src="https://circleci.com/gh/jupyter/jupyter-book.svg?style=svg" class="left">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cloud-Machine-Learning-Engine-Logo.svg/600px-Cloud-Machine-Learning-Engine-Logo.svg.png" class="center">
 
-Jupyter Books lets you build an online book using a collection of Jupyter Notebooks
-and Markdown files. Its output is similar to the excellent [Bookdown](https://bookdown.org/yihui/bookdown/) tool,
-and adds extra functionality for people running a Jupyter stack.
 
 For an example of a book built with Jupyter Books, see the [textbook for Data 100](https://www.textbook.ds100.org/) at UC Berkeley.
 
