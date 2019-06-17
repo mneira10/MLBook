@@ -32,9 +32,7 @@
   external: true
   not_numbered: true
 
-# Adds a searchbar link
-- title: Search
-  search: true
+
 
 # Divider for meta-pages and content page
 - divider: true
@@ -54,3 +52,11 @@
   - title: Jupyter notebooks
     url: /features/notebooks
     not_numbered: true
+
+
+# Adds a searchbar link
+- title: Search
+  search: true
+
+- title: Suggestions and stuff
+  url: /other/suggestions
