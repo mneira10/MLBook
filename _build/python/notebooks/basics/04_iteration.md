@@ -360,6 +360,86 @@ for i in range(0,10,3): # if you give three arguments they are interpreted as ra
 
 
 
+## List comprehensions
+
+List comprehensions enable quick and concise list creation. Their basic structure is the following:
+
+```python
+new_list = [expression(i) for i in old_list if filter(i)]
+```
+
+Lets look at an example. Suppose you have a list a:
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+a = [1,2,3,4]
+
+```
+</div>
+
+</div>
+
+
+
+That you wish to square. You could write a for loop:
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+a_squared = []
+for i in a:
+    a_squared.append(i**2)
+print(a_squared)
+
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+[1, 4, 9, 16]
+```
+</div>
+</div>
+</div>
+
+
+
+Using a list comprehension, this would look like:
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+a_squared = [x**2 for x in a]
+print(a_squared)
+
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+[1, 4, 9, 16]
+```
+</div>
+</div>
+</div>
+
+
+
+Much more concise!
+
+
+
 # Exercise 4.01
 Write a `for` cycle that prints the sequence: 5, 4, 3, 2, 1, 0.
 

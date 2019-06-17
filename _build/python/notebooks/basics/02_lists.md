@@ -185,7 +185,7 @@ l[6]
 
     IndexError                                Traceback (most recent call last)
 
-    <ipython-input-7-cb842cca7e42> in <module>()
+    <ipython-input-8-cb842cca7e42> in <module>()
     ----> 1 l[6]
     
 
@@ -386,6 +386,87 @@ l[:4]
 {:.output_data_text}
 ```
 [100, 4.5, 6, 9.0]
+```
+
+
+</div>
+</div>
+</div>
+
+
+
+You can also step through the list:
+
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+l[::2]
+
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[100, 6, 10]
+```
+
+
+</div>
+</div>
+</div>
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+l[::3]
+
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[100, 9.0]
+```
+
+
+</div>
+</div>
+</div>
+
+
+
+And step in reverse order:
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+l[::-1]
+
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+
+{:.output_data_text}
+```
+[-1, 10, 9.0, 6, 4.5, 100]
 ```
 
 
