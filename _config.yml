@@ -16,11 +16,11 @@
 
 #######################################################################################
 # Jekyll site settings
-title: YOUR BOOK NAME
-author: YOUR AUTHOR NAME
-email: YOUR EMAIL
+title: Introduction to machine learning
+author: Mauricio Neira
+email: m.neira10@uniandes.edu.co
 description: >-
-  This is an example book built with Jupyter Books.
+  A basic introduction to machine learning in python. This book covers the basics including python and advanced topics like support vector machines (SVMs). 
 
 baseurl: /               # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
 url: YOUR URL              # the base hostname & protocol for your site, e.g. http://example.com
