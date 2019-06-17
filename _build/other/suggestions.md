@@ -1,8 +1,8 @@
 ---
 title: 'Suggestions and stuff'
 prev_page:
-  url: /features/notebooks
-  title: 'Jupyter notebooks'
+  url: /python/notebooks/basics/08_modules
+  title: 'Modules'
 next_page:
   url: 
   title: ''

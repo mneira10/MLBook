@@ -6,8 +6,8 @@ prev_page:
   url: /intro
   title: 'Introduction'
 next_page:
-  url: /features/features
-  title: 'Features and customization'
+  url: /python/notebooks/basics/01_numbers
+  title: 'Numbers'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Python basics
