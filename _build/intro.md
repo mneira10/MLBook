@@ -1,11 +1,11 @@
 ---
-title: 'Who this book is for'
+title: 'Home'
 prev_page:
-  url: /intro
-  title: 'Welcome!'
+  url: 
+  title: ''
 next_page:
-  url: /features/features
-  title: 'Features and customization'
+  url: https://github.com/jupyter/jupyter-book
+  title: 'GitHub repository'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Books with Jupyter and Jekyll
