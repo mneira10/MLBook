@@ -3,8 +3,8 @@ redirect_from:
   - "/python/pythonbasics"
 title: 'Python basics'
 prev_page:
-  url: /intro
-  title: 'Introduction'
+  url: /gettingStarted
+  title: 'Getting started'
 next_page:
   url: /python/notebooks/basics/01_numbers
   title: 'Numbers'
@@ -13,6 +13,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 # Python basics
 
 Before we get started with any machine learning code, we need to get the python basics right. 
+
+You can get all of the notebooks [from this repo](https://github.com/mneira10/MLBookNotebooks.git) or you can download them individually as you go along. 
 
 ## Python version
 

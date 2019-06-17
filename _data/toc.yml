@@ -22,8 +22,12 @@
 # See the links below for an example.
 
 # Top-level page
-- title: Introduction
+- header: Introduction
+- title: Welcome
   url: /intro
+  not_numbered: true
+- title: Getting started
+  url: /gettingStarted
   not_numbered: true
 
 # External link

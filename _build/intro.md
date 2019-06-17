@@ -1,11 +1,11 @@
 ---
-title: 'Introduction'
+title: 'Welcome'
 prev_page:
   url: 
   title: ''
 next_page:
-  url: /python/pythonBasics
-  title: 'Python basics'
+  url: /gettingStarted
+  title: 'Getting started'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cloud-Machine-Learning-Engine-Logo.svg/300px-Cloud-Machine-Learning-Engine-Logo.svg.png" class="center">

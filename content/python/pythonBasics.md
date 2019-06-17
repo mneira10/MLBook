@@ -2,6 +2,8 @@
 
 Before we get started with any machine learning code, we need to get the python basics right. 
 
+You can get all of the notebooks [from this repo](https://github.com/mneira10/MLBookNotebooks.git) or you can download them individually as you go along. 
+
 ## Python version
 
 We will be using **python 3.x** throughout this book. Please take that into account. Running the exercises on a different version can lead to errors.
