@@ -1,8 +1,8 @@
 ---
 title: 'Features and customization'
 prev_page:
-  url: https://github.com/jupyter/jupyter-book
-  title: 'GitHub repository'
+  url: /python/pythonBasics
+  title: 'Python basics'
 next_page:
   url: /features/markdown
   title: 'Markdown files'

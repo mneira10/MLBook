@@ -22,23 +22,30 @@
 # See the links below for an example.
 
 # Top-level page
-- title: Home
+- title: Introduction
   url: /intro
   not_numbered: true
 
 # External link
-- title: GitHub repository
-  url: https://github.com/jupyter/jupyter-book
-  external: true
-  not_numbered: true
+# - title: GitHub repository
+#   url: https://github.com/jupyter/jupyter-book
+#   external: true
+#   not_numbered: true
 
 
 
 # Divider for meta-pages and content page
-- divider: true
+# - divider: true
 
 # Add a header and sample content section
-- header: Demo textbook
+- header: Python
+- title: Python basics
+  url: /python/pythonBasics
+  not_numbered: true
+  # expand_sections: true
+- title: Essential libraries
+  not_numbered: true
+
 
 # A chapter w/ a collection of sections beneath it
 - title: Features and customization
@@ -59,4 +66,5 @@
   search: true
 
 - title: Suggestions and stuff
+  not_numbered: true
   url: /other/suggestions
